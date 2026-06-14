@@ -2,17 +2,108 @@
 <html>
 <head>
     <title>にゃだいらー(仮)</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+      /* 🌍 画面全体の背景（チェック柄をちょっと細かく綺麗に） */
+      body {
+        background-color: #fff0f5; /* ほんのりいちごミルク色 */
+        background-image: 
+          linear-gradient(90deg, rgba(255, 182, 193, 0.4) 50%, transparent 50%),
+          linear-gradient(rgba(255, 182, 193, 0.4) 50%, transparent 50%);
+        background-size: 30px 30px; /* チェックの大きさを30pxにして細かく */
+        font-family: sans-serif;
+        color: #333;
+        padding: 40px 20px;
+        margin: 0;
+      }
+
+      /* 📦 ① 一番デカい外枠：これに「横並びになれ！」の魔法をかける */
+      .wrapper {
+        max-width: 900px;
+        margin: 0 auto;
+        display: flex; /* ⭐ これが横並びの魔法！ */
+        gap: 20px;     /* 左の箱と右の箱の「すきま」 */
+      }
+
+      /* 📦 ② 左側のメインの白い箱 */
+      .main-content {
+        flex: 2; /* 右の箱よりちょっと広めにする */
+        background: white;
+        padding: 30px;
+        border-radius: 16px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+      }
+
+      /* 📦 ③ 右側のプロフィールの白い箱 */
+      .sidebar {
+        flex: 1; /* 左の箱よりちょっと狭めにする */
+        background: white;
+        padding: 30px;
+        border-radius: 16px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+        text-align: center; /* プロフィール内は真ん中寄せ */
+      }
+
+      /* 💊 カプセル型のグラデーションボタン */
+      .menu {
+        margin: 25px 0;
+      }
+      .btn {
+        display: inline-block;
+        padding: 10px 30px;
+        margin-right: 10px;
+        border-radius: 50px; /* 完全に丸いカプセル型にする */
+        color: #333;
+        text-decoration: none;
+        font-weight: bold;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      }
+      /* 日記ボタン（薄紫のグラデーション） */
+      .btn-diary {
+        background: linear-gradient(to bottom, #e6e6fa, #dcdcdc);
+      }
+      /* らくがきボタン（パステルピンクのグラデーション） */
+      .btn-illust {
+        background: linear-gradient(to bottom, #ffe4e1, #ffced1);
+      }
+
+      /* プロフィールの画像ダミー用の箱 */
+      .profile-img {
+        width: 120px;
+        height: 150px;
+        border: 2px solid #333;
+        margin: 15px auto;
+        line-height: 150px; /* 文字を真ん中に */
+        background: #fafafa;
+      }
+    </style>
 </head>
 <body>
 
-<h1>こんにちは！</h1>
+<div class="wrapper">
 
-<p>ここはねころものサイトです。</p>
+    <div class="main-content">
+        <h1>にゃだいらー(仮)</h1>
+        
+        <nav class="menu">
+            <a href="#" class="btn btn-diary">日記</a>
+            <a href="#" class="btn btn-illust">らくがき</a>
+        </nav>
 
-<h4>更新情報的な</h4>
-<p>2026/6/14 サイトを開設！</p>
-<p>まだまだ準備中だな……</p>
+        <hr style="border: 0; border-top: 1px dashed #ccc; margin: 30px 0;">
+
+        <div>
+            <h3>更新情報</h3>
+            <p>2026/6/14 サイトを開設！設計図通りに建築中……</p>
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <h3>プロフィール</h3>
+        <div class="profile-img">がぞう</div>
+        <p>ねころもです。ここに簡単な自己紹介の文章が入るよ！</p>
+    </div>
+
+</div>
 
 </body>
 </html>
