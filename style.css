@@ -2,14 +2,14 @@ body {
   /*フォント変えるやつね。消すな*/
   font-family: "Hiragino Sans", sans-serif;
 
-  /* ベースの薄いピンク */
-  background-color: #fff0f5; 
-
-  /* 太めのチェック柄（縦と横の線を重ねています） */
-  background-image: 
-    linear-gradient(90deg, #ffd6e8 50%, transparent 50%),
-    linear-gradient(#ffd6e8 50%, transparent 50%);
+　/ * 背景を白ベースにする */
+  background-color: #ffffff; 
   
-  /* ★ここの数字を大きくすると、線とマス目がデカくなります！ */
-  background-size: 80px 80px; 
+  /* 縦の線と横の線を重ねてチェック柄を作る魔法 */
+  background-image: 
+    linear-gradient(90deg, rgba(255, 182, 193, 0.5) 50%, transparent 50%),
+    linear-gradient(rgba(255, 182, 193, 0.5) 50%, transparent 50%);
+  
+  /* チェックの大きさを決める（数字を小さくすると細かいチェックになります） */
+  background-size: 40px 40px;  
 }
