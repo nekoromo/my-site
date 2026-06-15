@@ -2,7 +2,7 @@ body {
   /*フォント変えるやつね。消すな*/
   font-family: "Hiragino Sans", sans-serif;
 
-　/ * 背景を白ベースにする */
+　/* 背景を白ベースにする */
   background-color: #ffffff; 
   
   /* 縦の線と横の線を重ねてチェック柄を作る魔法 */
