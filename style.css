@@ -1,15 +1,15 @@
 body {
   /*フォント変えるやつね。消すな*/
   font-family: "Hiragino Sans", sans-serif;
-
-　/* 背景を白ベースにする */
-  background-color: #ffffff; 
   
-  /* 縦の線と横の線を重ねてチェック柄を作る魔法 */
+  /* ベースの背景色（白） */
+  background-color: #ffffff;
+  
+  /* 縦と横のピンクの線を重ねる */
   background-image: 
     linear-gradient(90deg, rgba(255, 182, 193, 0.5) 50%, transparent 50%),
     linear-gradient(rgba(255, 182, 193, 0.5) 50%, transparent 50%);
-  
-  /* チェックの大きさを決める（数字を小さくすると細かいチェックになります） */
-  background-size: 40px 40px;  
+    
+  /* チェック柄の1マスの大きさを指定（縦横のサイズ） */
+  background-size: 60px 60px;
 }
