@@ -32,10 +32,14 @@ body {
   display: flex;
   gap: 20px;
   align-items: flex-start;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
 }
 
 .left-column {
- width: 60%;
+ width: 64%;
 }
 
 .profile-box {
