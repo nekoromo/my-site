@@ -35,7 +35,7 @@ body {
 }
 
 .left-column {
-  width: 70%;
+ flex: 1;
 }
 
 .profile-box {
