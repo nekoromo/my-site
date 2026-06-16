@@ -36,10 +36,9 @@ body {
   margin: 0 auto;
   padding: 20px;
 }
-}
 
 .left-column {
- width: 64%;
+ width:70%;
  border:5px solid red;
 }
 
