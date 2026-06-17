@@ -25,7 +25,7 @@ body {
   padding: 20px;
   margin-bottom: 20px;
   box-shadow: none;
-  border: 2px outset #ffffff; /* 👈 昔のパソコンのボタンみたいな枠線 */
+  border: 3px outset #cccccc; /* 👈 色をグレー（#cccccc）にする！ */
   display: inline-block;
 }
 
@@ -50,7 +50,8 @@ body {
   margin:10px;
   min-height: 500px;
   box-shadow: none;
-border: 2px outset #ffffff; /* 👈 昔のパソコンのボタンみたいな枠線 */
+  border: 3px outset #cccccc; /* 👈 色をグレー（#cccccc）にする！ */
+
 }
 
 /* プロフ箱の中の文字用 */
@@ -77,11 +78,13 @@ border: 2px outset #ffffff; /* 👈 昔のパソコンのボタンみたいな�
     width: 100%; 
   }
 
-  /* ★ここを書き換えます！ */
+   /* ★ここを前の設定（幅100%・マージン10px）に直します！ */
   .profile-box {
-    width: 90%;          /* 100% から 90% に縮小して、左右に絶対に隙間を作る！ */
-    max-width: 250px;    /* 大きくなりすぎないように、PC版と同じ250pxを上限にする */
-    margin: 15px auto;   /* 「auto」の力で、狭くした箱を画面の【真ん中】にポンと置く！ */
+    width: 100%;         /* 90% から元の 100% に戻す！ */
+    max-width: 250px;    
+    margin: 10px;        /* auto から元の 10px（左寄り）に戻す！ */
     min-height: auto; 
+    border: 2px outset #cccccc; /* 👈 グレーの立体枠線はここにも入れとくね！ */
   }
+
 }
