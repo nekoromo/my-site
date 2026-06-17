@@ -12,7 +12,9 @@ body {
 
 .diary-container {
   max-width: 600px; /* 横幅を最大600ピクセルに制限する */
+  margin: 0 auto;    /* 制限した箱を、画面の「真ん中」に寄せるおまじない */
 }
+
 
   
 
