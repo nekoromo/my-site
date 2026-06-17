@@ -52,10 +52,10 @@ body {
 }
 
 .profile-img {
-  width: 65px;         /* 【超ちんまり！】％ではなく「px」で豆粒サイズに固定！ */
+  width: 65px;
   height: auto;        
   display: block;      
-  margin: 10px auto 10px; /* 画像の上のすきまを10pxにして、てっぺんに詰めました */
+  margin: 10px auto 10px;
 }
 
 /* 画面の横幅が 600px より小さくなった時（スマホの時）のルール */
