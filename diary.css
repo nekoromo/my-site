@@ -2,6 +2,13 @@ body {
   font-family: "Hiragino Sans", sans-serif;
   background-color: #FFFAFA;
   color: #222222;            
-  line-height: 1.8;          
+  line-height: 1.8;   
+
+  .diary-post {
+  border-bottom: 1px dashed #dddddd; /* 下側に線を引く */
+  padding-bottom: 30px;               /* 線と文字の間のすきま */
+  margin-bottom: 50px;                /* 線と「次の日の日記」の間のすきま */
+}
+
 }
 
