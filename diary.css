@@ -5,18 +5,13 @@ body {
   line-height: 1.8;   
 }
 
-  .diary-post {
-  border-bottom:1px solid #dddddd; /* 下側に線を引く */
-  padding-bottom: 30px;               /* 線と文字の間のすきま */
-  margin-bottom: 50px;                /* 線と「次の日の日記」の間のすきま */
+.diary-post {
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 30px;               
+  margin-bottom: 50px;                
 }
 
 .diary-container {
-  max-width: 600px; /* 横幅を最大600ピクセルに制限する */
-  margin: 0 auto;    /* 制限した箱を、画面の「真ん中」に寄せるおまじない */
+  max-width: 600px; 
+  margin: 0 auto;    
 }
-
-
-  
-
-
