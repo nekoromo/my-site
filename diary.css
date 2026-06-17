@@ -1,2 +1,9 @@
 
 font-family: "Hiragino Sans", sans-serif;
+
+body {
+  background-color: #FFFAFA;
+  color: #222222;            
+  line-height: 1.8;          
+}
+
