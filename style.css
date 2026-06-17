@@ -51,6 +51,12 @@ body {
   box-shadow: 0 4px 6px rgba(0,0,0,0.05);
 }
 
+.profile-img {
+  width: 100%;         /* 親である「プロフ箱（200px）」の横幅に100%合わせる！ */
+  height: auto;        /* 縦横比を崩さない */
+  border-radius: 50%;  /* 【おまけ】これを書くと画像が「まんまる」になって可愛い！ */
+}
+
 /* 画面の横幅が 600px より小さくなった時（スマホの時）のルール */
 @media (max-width: 600px) {
   .container {
