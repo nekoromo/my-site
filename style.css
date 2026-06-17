@@ -18,6 +18,14 @@ body {
 .title-box img {
   width: 100%;
 }
+.title-box {
+  width: 100%;
+  box-sizing: border-box; /* 👈 枠線をつけても画像がはみ出さないようにするお守り */
+  background-color: rgba(255, 255, 255, 0.9); /* 箱の背景を白にする */
+  padding: 10px;          /* タイトル絵のまわりに少し隙間（余白）を作る */
+  border: 3px outset #cccccc; /* 👈 更新情報とおそろいのグレーの立体枠線！ */
+}
+
 
 .kosin-joho{
   background-color: rgba(255, 255, 255, 0.9);
