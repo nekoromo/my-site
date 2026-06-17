@@ -50,7 +50,7 @@ body {
   margin:10px;
   min-height: 500px;
   box-shadow: none;
-　border: 2px outset #ffffff; /* 👈 昔のパソコンのボタンみたいな枠線 */
+border: 2px outset #ffffff; /* 👈 昔のパソコンのボタンみたいな枠線 */
 }
 
 /* プロフ箱の中の文字用 */
