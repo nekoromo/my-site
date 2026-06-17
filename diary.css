@@ -13,5 +13,17 @@ body {
 
 .diary-container {
   max-width: 600px; 
-  margin: 0 auto;    
+  margin: 0 auto;  
 }
+
+/* 日記の中の画像（イラスト）をオシャレに整える */
+.diary-post img {
+  max-width: 100%;       /* 箱（600px）からはみ出さないようにする */
+  height: auto;          /* 縦横の比率が崩れてビヨーンって伸びるのを防ぐ */
+  border-radius: 12px;   /* 角をちょっと丸くして可愛くする */
+  margin: 20px 0;        /* 画像の上下にちょっとすきまを作って見やすくする */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05); /* イラストの下にふんわり影をつける */
+}
+
+  
+
