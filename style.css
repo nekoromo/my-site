@@ -66,17 +66,16 @@ body {
 
 /* 画面の横幅が 600px より小さくなった時（スマホの時）のルール */
 @media (max-width: 600px) {
-  .container {
+.container {
     flex-direction: column; /* 横並びをやめて、縦並びにする */
+    padding: 10px;          /* 【追加】スマホ画面の左右に「10pxのセーフティゾーン」を作る */
   }
-
-  .left-column {
-    width: 100%; /* スマホの時は横幅を100%いっぱいにする */
+.left-column {
+    width: 100%; 
   }
-
-  .profile-box {
-    width: 100%; /* プロフィールも100%にして、左側のコンテンツの下に配置する */
-    min-height: auto; /* 縦長すぎるのを解除 */
+.profile-box {
+    width: 100%; 
+    min-height: auto; 
+    margin: 10px 0;         /* 【変更】左右のmarginを「0」にしてはみ出しを防止！ */
   }
 }
-
