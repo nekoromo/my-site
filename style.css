@@ -52,7 +52,7 @@ body {
 }
 
 .profile-img {
-  width: 35px;         /* 【超ちんまり！】％ではなく「px」で豆粒サイズに固定！ */
+  width: 60px;         /* 【超ちんまり！】％ではなく「px」で豆粒サイズに固定！ */
   height: auto;        
   display: block;      
   margin: 10px auto 10px; /* 画像の上のすきまを10pxにして、てっぺんに詰めました */
