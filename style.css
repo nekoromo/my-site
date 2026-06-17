@@ -52,12 +52,11 @@ body {
 }
 
 .profile-img {
-  width: 50%;          /* 100% から 40%（半分以下）に大減量！ */
+  width: 35px;         /* 【超ちんまり！】％ではなく「px」で豆粒サイズに固定！ */
   height: auto;        
-  display: block;      /* 【超重要】画像を「箱の真ん中」に寄せるおまじない */
-  margin: 0 auto 15px; /* 【超重要】真ん中に寄せて、下に少しすきまを作る */
+  display: block;      
+  margin: 10px auto 10px; /* 画像の上のすきまを10pxにして、てっぺんに詰めました */
 }
-
 
 /* 画面の横幅が 600px より小さくなった時（スマホの時）のルール */
 @media (max-width: 600px) {
