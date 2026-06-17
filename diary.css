@@ -6,7 +6,7 @@ body {
 }
 
   .diary-post {
-  border-solid: 1px  #dddddd; /* 下側に線を引く */
+  border-bottom:1px solid #dddddd; /* 下側に線を引く */
   padding-bottom: 30px;               /* 線と文字の間のすきま */
   margin-bottom: 50px;                /* 線と「次の日の日記」の間のすきま */
 }
