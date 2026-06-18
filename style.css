@@ -2,8 +2,8 @@
 html {
   /* ピンクのチェック柄をここに引っ越し！ */
   background-image: 
-    linear-gradient(90deg, rgba(255, 182, 193, 0.5) 50%, transparent 50%),
-    linear-gradient(rgba(255, 182, 193, 0.5) 50%, transparent 50%);
+   linear-gradient(90deg, rgba(255, 182, 193, 0.5) 50%, transparent 50%),
+   linear-gradient(rgba(255, 182, 193, 0.5) 50%, transparent 50%);
   background-size: 60px 60px; 
   background-color: #ffffff;
 }
@@ -13,8 +13,8 @@ body {
   
   /* サイト全体を750pxの白いノートにします */
   max-width: 750px; 
-  margin: 0 auto; 
-  background-color: #ffffff; /* ノートの土台は白！ */
+  margin: 30px auto; 
+  background-color: transparent; 
   
   /* ノートのまわりに、ほんのり細いグレーの枠線をつけて引き締める */
   border-left: 2px solid #dddddd;
