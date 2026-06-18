@@ -1,11 +1,16 @@
 
 html {
+  height: auto;
+  min-height: 100%; 
+
   /* 背景のピンクチェックはそのまま */
   background-image: 
    linear-gradient(90deg, rgba(255, 182, 193, 0.5) 50%, transparent 50%),
    linear-gradient(rgba(255, 182, 193, 0.5) 50%, transparent 50%);
   background-size: 60px 60px; 
   background-color: #ffffff;
+  background-repeat: repeat; 
+  
 }
 
 body {
@@ -17,7 +22,7 @@ body {
   border-radius: 15px; 
   border: 2px solid #cccccc; 
   
-  min-height: 100vh; 
+  min-height: auto; 
 }
 
 
