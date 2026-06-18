@@ -39,7 +39,7 @@ body {
   display: flex;
   gap: 15px;
   align-items: flex-start;
-  max-width: 800px;
+  max-width: 650px;
   margin: 0 auto;
   padding: 20px;
 }
