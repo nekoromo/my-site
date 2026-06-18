@@ -1,19 +1,29 @@
-body {
-  /*フォント変えるやつね。消すな*/
-  font-family: "Hiragino Sans", sans-serif;
-  
-  /* ベースの背景色（白） */
-  background-color: #ffffff;
-  
-  /* 縦と横のピンクの線を重ねる */
+
+html {
+  /* ピンクのチェック柄をここに引っ越し！ */
   background-image: 
     linear-gradient(90deg, rgba(255, 182, 193, 0.5) 50%, transparent 50%),
     linear-gradient(rgba(255, 182, 193, 0.5) 50%, transparent 50%);
-    
-  /* チェック柄の1マスの大きさを指定（縦横のサイズ） */
-  background-size: 60px 60px;
-
+  background-size: 60px 60px; 
+  background-color: #ffffff;
 }
+
+body {
+  font-family: "Hiragino Sans", sans-serif; /* フォント*/
+  
+  /* サイト全体を750pxの白いノートにします */
+  max-width: 750px; 
+  margin: 0 auto; 
+  background-color: #ffffff; /* ノートの土台は白！ */
+  
+  /* ノートのまわりに、ほんのり細いグレーの枠線をつけて引き締める */
+  border-left: 2px solid #dddddd;
+  border-right: 2px solid #dddddd;
+  
+  /* スマホやiPadで見たときに、ノートが画面の端にペタッとくっつかないために*/
+  min-height: 100vh; 
+}
+
 
 .title-box img {
   width: 100%;
