@@ -93,6 +93,6 @@ body {
     margin: 10px 0;   
     min-height: auto; 
     border-radius: 10px; /* 👈 スマホでもちゃんとカドを丸くする */
-    border: 3px outset #cccccc; 
+    border: 3px solid #cccccc; 
   }
 }
