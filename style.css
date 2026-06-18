@@ -39,32 +39,29 @@ body {
   display: flex;
   gap: 15px;
   align-items: flex-start;
-  max-width: 650px;
+  max-width: 700px; 
   margin: 0 auto;
   padding: 20px;
 }
 
 .left-column {
- width:64%;
+  flex: 1; 
 }
 
 .profile-box {
   background-color: rgba(255,255,255,0.9);
-  border-radius: 0 10px;
+  border-radius: 10px; /* 👈 スペースを消して「10px」に！これで四隅がちゃんと丸くなります */
   padding: 10px;
-  width: 250px;
-  margin:10px;
+  width: 220px; 
   min-height: 500px;
   box-shadow: none;
-  border: 3px outset #cccccc; /* 👈 色をグレー（#cccccc）にする！ */
-
+  border: 3px outset #cccccc; 
 }
 
 /* プロフ箱の中の文字用 */
 .profile-box * {
   margin: 5px 0; 
 }
-
 
 .profile-img {
   width: 150px;
@@ -84,13 +81,12 @@ body {
     width: 100%; 
   }
 
-   /* ★ここを前の設定（幅100%・マージン10px）に直します！ */
   .profile-box {
-    width: 100%;         /* 90% から元の 100% に戻す！ */
-    max-width: 250px;    
-    margin: 10px;        /* auto から元の 10px（左寄り）に戻す！ */
+    width: 100%;         
+    max-width: 100%; /* 👈 スマホの時は横幅いっぱいに広がるように変更！ */
+    margin: 10px 0;   
     min-height: auto; 
-    border: 2px outset #cccccc; /* 👈 グレーの立体枠線はここにも入れとくね！ */
+    border-radius: 10px; /* 👈 スマホでもちゃんとカドを丸くする */
+    border: 3px outset #cccccc; 
   }
-
 }
