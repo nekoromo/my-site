@@ -5,10 +5,11 @@ body {
   color: #222222;            
 }
 
-.comic-page {
+. manga-page {
   width: 100%;
-  max-width: 800px;
+  max-width: 80%;
   height: auto;
   display: block;
   margin: 0 auto;
+  border: 2px solid #cccccc; 
 }
