@@ -32,7 +32,7 @@ body {
   background-color: rgba(255, 255, 255, 0.9); /* 箱の背景を白にする */
   border-radius: 10px;
   padding: 10px;          /* タイトル絵のまわりに少し隙間（余白）を作る */
-  border: 3px solid #cccccc; 
+  border: 10px solid #FFFAFA; 
 }
 
 
@@ -42,7 +42,7 @@ body {
   padding: 20px;
   margin-bottom: 20px;
   box-shadow: none;
-  border: 3px solid #cccccc; /* 👈 色をグレー（#cccccc）にする！ */
+  border: 10px solid #FFFAFA; /* 👈 色をグレー（#cccccc）にする！ */
   display: inline-block;
 }
 
@@ -66,7 +66,7 @@ body {
   width: 220px; 
   min-height: 500px;
   box-shadow: none;
-  border: 3px solid #cccccc; 
+  border: 10px solid #FFFAFA; 
 }
 
 /* プロフ箱の中の文字用 */
@@ -98,6 +98,6 @@ body {
     margin: 10px 0;   
     min-height: auto; 
     border-radius: 10px; /* 👈 スマホでもちゃんとカドを丸くする */
-    border: 3px solid #cccccc; 
+    border: 10px solid #FFFAFA; 
   }
 }
