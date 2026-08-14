@@ -1,6 +1,21 @@
 body {
+  /* ベースの背景色（白） */
+  background-color: #ffffff; 
+
+  /* 縦線と横線を重ねて方眼にする設定 */
+  background-image: 
+    /* 横線（淡いピンクの細い線） */
+    linear-gradient(#f7d3e3 1px, transparent 1px),
+    /* 縦線（淡いピンクの細い線） */
+    linear-gradient(90deg, #f7d3e3 1px, transparent 1px);
+
+  /* ノートのマス目のサイズ（20px × 20px の方眼） */
+  background-size: 20px 20px; 
+}
+
+
+body {
   font-family: "Hiragino Sans", sans-serif;
-  background-color: #FFFAFA;
   color: #222222;            
   line-height: 1.8;   
 }
